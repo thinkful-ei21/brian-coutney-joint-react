@@ -6,8 +6,7 @@ export default function NextButton(props) {
 
 return (
 		<div>
-			
-			<button onClick={() => props.onClick()}>Next</button>
+			<button className="next" onClick={event => props.nextImage(event)}>Next</button>
 		</div>
 	)
 

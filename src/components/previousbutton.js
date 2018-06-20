@@ -7,7 +7,7 @@ export default function PreviousButton(props) {
 return (
 	
     <div>
-        <button>Previous</button>
+        <button className="previous" onClick={event => props.prevImage(event)}>Previous</button>
     </div>
 	)
 
