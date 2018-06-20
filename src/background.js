@@ -1,5 +1,6 @@
 import React from 'react';
 import Images from './components/images';
+import Button from './components/button';
 
 export default class Background extends React.Component {
     constructor(props){
@@ -13,8 +14,8 @@ export default class Background extends React.Component {
     render(){
         return(
             <div className="background">
-            
                 <Images/>
+                <Button/>
             </div>
         )
 
