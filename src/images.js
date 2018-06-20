@@ -40,15 +40,18 @@ export default class Images extends React.Component {
 		}  
 
     next(){ 
+        if(this.state.currentCount <= 5 ){
        this.setState({
         currentCount: this.state.currentCount + 1
-       })
+        
+       })}
     }
 
     previous(){ 
+        if(this.state.currentCount >= 2 ){
        this.setState({
         currentCount: this.state.currentCount - 1
-       })
+       })}
     }
     
     setImages(){
